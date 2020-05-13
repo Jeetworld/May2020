@@ -4,14 +4,7 @@
   <test name="Test">
     <classes>
       <class name="lol.Fedg.firstClass"/>
-      <class name="APIbody.JsonBodyDemo"/>
-      <class name="APIbody.ADDPlace"/>
-      <class name="RESTAssured.AddPlaceClass"/>
-      <class name="RESTAssured.AddPlaceClass2"/>
-      <class name="RESTAssured.AddPlaceWithDataFromExternalSource"/>
-      <class name="RESTAssured.GetPlace"/>
-      <class name="RESTAssured.JsonBodyDemoClass"/>
-      <class name="RESTAssured.AddPlaceWithDataParemterization"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

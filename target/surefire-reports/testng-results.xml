@@ -2,18 +2,24 @@
 <testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43623" started-at="2020-05-03T17:26:00Z" finished-at="2020-05-03T17:26:44Z">
+  <suite name="Suite" duration-ms="63284" started-at="2020-05-13T18:21:09Z" finished-at="2020-05-13T18:22:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43623" started-at="2020-05-03T17:26:00Z" finished-at="2020-05-03T17:26:44Z">
+    <test name="Test" duration-ms="63284" started-at="2020-05-13T18:21:09Z" finished-at="2020-05-13T18:22:12Z">
       <class name="lol.Fedg.firstClass">
-        <test-method status="PASS" signature="abc()[pri:0, instance:lol.Fedg.firstClass@5034c75a]" name="abc" duration-ms="25084" started-at="2020-05-03T17:26:00Z" finished-at="2020-05-03T17:26:25Z">
+        <test-method status="PASS" signature="abc()[pri:0, instance:lol.Fedg.firstClass@5034c75a]" name="abc" duration-ms="48858" started-at="2020-05-13T18:21:09Z" finished-at="2020-05-13T18:21:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- abc -->
       </class> <!-- lol.Fedg.firstClass -->
+      <class name="RESTAssured.GetPlace">
+        <test-method status="PASS" signature="getPlaceClass()[pri:0, instance:RESTAssured.GetPlace@7f9a81e8]" name="getPlaceClass" duration-ms="2029" started-at="2020-05-13T18:22:10Z" finished-at="2020-05-13T18:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaceClass -->
+      </class> <!-- RESTAssured.GetPlace -->
       <class name="RESTAssured.AddPlaceWithDataParemterization">
-        <test-method status="FAIL" signature="yellow()[pri:0, instance:RESTAssured.AddPlaceWithDataParemterization@62ee68d8]" name="yellow" duration-ms="9" started-at="2020-05-03T17:26:44Z" data-provider="parameterization" finished-at="2020-05-03T17:26:44Z">
+        <test-method status="FAIL" signature="yellow()[pri:0, instance:RESTAssured.AddPlaceWithDataParemterization@62ee68d8]" name="yellow" duration-ms="6" started-at="2020-05-13T18:22:12Z" data-provider="parameterization" finished-at="2020-05-13T18:22:12Z">
           <exception class="org.testng.internal.reflect.MethodMatcherException">
             <message>
               <![CDATA[
@@ -57,26 +63,20 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
           </reporter-output>
         </test-method> <!-- yellow -->
       </class> <!-- RESTAssured.AddPlaceWithDataParemterization -->
-      <class name="RESTAssured.GetPlace">
-        <test-method status="PASS" signature="getPlaceClass()[pri:0, instance:RESTAssured.GetPlace@7f9a81e8]" name="getPlaceClass" duration-ms="2157" started-at="2020-05-03T17:26:41Z" finished-at="2020-05-03T17:26:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPlaceClass -->
-      </class> <!-- RESTAssured.GetPlace -->
       <class name="RESTAssured.JsonBodyDemoClass">
-        <test-method status="PASS" signature="OperationsOnJsonOutput()[pri:0, instance:RESTAssured.JsonBodyDemoClass@9629756]" name="OperationsOnJsonOutput" duration-ms="527" started-at="2020-05-03T17:26:43Z" finished-at="2020-05-03T17:26:44Z">
+        <test-method status="PASS" signature="OperationsOnJsonOutput()[pri:0, instance:RESTAssured.JsonBodyDemoClass@9629756]" name="OperationsOnJsonOutput" duration-ms="502" started-at="2020-05-13T18:22:12Z" finished-at="2020-05-13T18:22:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OperationsOnJsonOutput -->
       </class> <!-- RESTAssured.JsonBodyDemoClass -->
       <class name="RESTAssured.AddPlaceWithDataFromExternalSource">
-        <test-method status="PASS" signature="orange()[pri:0, instance:RESTAssured.AddPlaceWithDataFromExternalSource@51081592]" name="orange" duration-ms="850" started-at="2020-05-03T17:26:40Z" finished-at="2020-05-03T17:26:41Z">
+        <test-method status="PASS" signature="orange()[pri:0, instance:RESTAssured.AddPlaceWithDataFromExternalSource@51081592]" name="orange" duration-ms="1276" started-at="2020-05-13T18:22:08Z" finished-at="2020-05-13T18:22:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orange -->
       </class> <!-- RESTAssured.AddPlaceWithDataFromExternalSource -->
       <class name="RESTAssured.AddPlaceClass">
-        <test-method status="PASS" signature="ADDplace()[pri:0, instance:RESTAssured.AddPlaceClass@396a51ab]" name="ADDplace" duration-ms="14893" started-at="2020-05-03T17:26:25Z" finished-at="2020-05-03T17:26:40Z">
+        <test-method status="PASS" signature="ADDplace()[pri:0, instance:RESTAssured.AddPlaceClass@396a51ab]" name="ADDplace" duration-ms="10533" started-at="2020-05-13T18:21:58Z" finished-at="2020-05-13T18:22:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ADDplace -->
