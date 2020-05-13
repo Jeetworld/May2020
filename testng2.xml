@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="lol.Fedg.firstClass"/>
+      <class name="APIbody.JsonBodyDemo"/>
+      <class name="APIbody.ADDPlace"/>
+      <class name="RESTAssured.AddPlaceClass"/>
+      <class name="RESTAssured.AddPlaceClass2"/>
+      <class name="RESTAssured.AddPlaceWithDataFromExternalSource"/>
+      <class name="RESTAssured.GetPlace"/>
+      <class name="RESTAssured.JsonBodyDemoClass"/>
+      <class name="RESTAssured.AddPlaceWithDataParemterization"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

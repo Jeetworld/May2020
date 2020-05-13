@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43623" started-at="2020-05-03T17:26:00Z" finished-at="2020-05-03T17:26:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="43623" started-at="2020-05-03T17:26:00Z" finished-at="2020-05-03T17:26:44Z">
+      <class name="lol.Fedg.firstClass">
+        <test-method status="PASS" signature="abc()[pri:0, instance:lol.Fedg.firstClass@5034c75a]" name="abc" duration-ms="25084" started-at="2020-05-03T17:26:00Z" finished-at="2020-05-03T17:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+      </class> <!-- lol.Fedg.firstClass -->
+      <class name="RESTAssured.AddPlaceWithDataParemterization">
+        <test-method status="FAIL" signature="yellow()[pri:0, instance:RESTAssured.AddPlaceWithDataParemterization@62ee68d8]" name="yellow" duration-ms="9" started-at="2020-05-03T17:26:44Z" data-provider="parameterization" finished-at="2020-05-03T17:26:44Z">
+          <exception class="org.testng.internal.reflect.MethodMatcherException">
+            <message>
+              <![CDATA[
+Data provider mismatch
+Method: yellow([])
+Arguments: [(java.lang.String) aaa,(java.lang.String) df,(java.lang.String) gf]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: yellow([])
+Arguments: [(java.lang.String) aaa,(java.lang.String) df,(java.lang.String) gf]
+at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:45)
+at org.testng.internal.Parameters.injectParameters(Parameters.java:796)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:983)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yellow -->
+      </class> <!-- RESTAssured.AddPlaceWithDataParemterization -->
+      <class name="RESTAssured.GetPlace">
+        <test-method status="PASS" signature="getPlaceClass()[pri:0, instance:RESTAssured.GetPlace@7f9a81e8]" name="getPlaceClass" duration-ms="2157" started-at="2020-05-03T17:26:41Z" finished-at="2020-05-03T17:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPlaceClass -->
+      </class> <!-- RESTAssured.GetPlace -->
+      <class name="RESTAssured.JsonBodyDemoClass">
+        <test-method status="PASS" signature="OperationsOnJsonOutput()[pri:0, instance:RESTAssured.JsonBodyDemoClass@9629756]" name="OperationsOnJsonOutput" duration-ms="527" started-at="2020-05-03T17:26:43Z" finished-at="2020-05-03T17:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OperationsOnJsonOutput -->
+      </class> <!-- RESTAssured.JsonBodyDemoClass -->
+      <class name="RESTAssured.AddPlaceWithDataFromExternalSource">
+        <test-method status="PASS" signature="orange()[pri:0, instance:RESTAssured.AddPlaceWithDataFromExternalSource@51081592]" name="orange" duration-ms="850" started-at="2020-05-03T17:26:40Z" finished-at="2020-05-03T17:26:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+      </class> <!-- RESTAssured.AddPlaceWithDataFromExternalSource -->
+      <class name="RESTAssured.AddPlaceClass">
+        <test-method status="PASS" signature="ADDplace()[pri:0, instance:RESTAssured.AddPlaceClass@396a51ab]" name="ADDplace" duration-ms="14893" started-at="2020-05-03T17:26:25Z" finished-at="2020-05-03T17:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADDplace -->
+      </class> <!-- RESTAssured.AddPlaceClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
