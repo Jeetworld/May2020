@@ -11,7 +11,7 @@ public class JsonBodyDemoClass {
 	public void OperationsOnJsonOutput()
 	{
 		
-		JsonPath js = new JsonPath(JsonBodyDemo.JsonBodyDemoAPI());
+		/*JsonPath js = new JsonPath(JsonBodyDemo.JsonBodyDemoAPI());
 		
 		System.out.println(js.getInt("courses[1].price"));  //whenever we need to convert to String from int : we use .toString
 		
@@ -41,7 +41,7 @@ public class JsonBodyDemoClass {
 		
 		
 		System.out.println("Sum is "+Sum);
-		
+		*/
 	}
 
 }
